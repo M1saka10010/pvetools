@@ -1910,7 +1910,7 @@ No sensors found.
                 rm /usr/bin/s.sh
                 #cp /etc/pvetools/pvemanagerlib.js $js
                 #cp /etc/pvetools/Nodes.pm $pm
-                apt install --reinstall pve-manager
+                apt-get install --reinstall pve-manager -y
                 systemctl restart pveproxy
                 echo 50
                 echo 100
